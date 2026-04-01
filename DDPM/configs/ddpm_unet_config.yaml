@@ -1,0 +1,28 @@
+# DDPM config
+ddpm:
+  n_steps: 1000
+  beta_start: 0.0001
+  beta_end: 0.02
+  img_size: 64
+
+# UNet config
+unet:
+  image_channels: 3
+  n_channels: 64
+  ch_mults: [1, 2, 2, 4]
+  is_attn: [False, False, True, True]
+  n_blocks: 2
+
+# Env and path config
+env:
+  device: "cuda"
+  model_save_path: "ckpts/ddmp_unet.pth"
+  model_load_path: "ckpts/ddmp_unet.pth"
+
+# Train config
+train:
+  batch_size: 1
+  lr: 0.00002
+  epochs: 50000
+  overfit_for_show: True  # only use one image to show
+  train_dataset_path: "./imgs/gugugaga.png"  
