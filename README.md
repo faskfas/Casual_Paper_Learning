@@ -17,6 +17,8 @@ Casual_Paper_Learning/
 │   │   ├── imgs  # 架构图、运行结果等
 │   │   └──Transformer.html  # 可以直接打开的html notebook
 │   │   └── 其他的材料
+│
+├── casual_paper_learning  # utils包
 ...
 ```
 
@@ -38,6 +40,15 @@ pip install jupyter notebook ipykernel
 ```bash
 pip install timm
 ```
+
+**注意**: 在某些笔记的训练和推理部分，为了方便管理，我把utils包迁移到了[casual_paper_learning](casual_paper_learning)目录下，所以请安装此包:
+
+```bash
+cd casual_paper_learning
+pip install -e .
+```
+
+具体详细可以进入[casual_paper_learning/README.md](casual_paper_learning/README.md)
 
 之后打开 ipynb 文件，你就可以进行预览了，note 的开头一般都会给出**架构图**、**参考的博客链接(如知乎)**、**github源码仓库**、**原始论文链接**，本项目的笔记主要都是基于这三个参考信息进行整理(**主要是对架构进行理解**，其他信息比如训练可能会简略一些)，如果你还是有疑问，可以点击这三个链接转跳到对应的文章或源码进行参考
 

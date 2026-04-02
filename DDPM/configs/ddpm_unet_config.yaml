@@ -17,7 +17,7 @@ unet:
 env:
   device: "cuda"
   model_save_path: "ckpts/ddmp_unet.pth"
-  model_load_path: "ckpts/ddmp_unet.pth"
+  model_load_path: "ckpts/ddmp_unet_iter50000.pth"
 
 # Train config
 train:

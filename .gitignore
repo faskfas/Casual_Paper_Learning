@@ -1,3 +1,6 @@
 *.pth
 .vscode/
 __pycache__/
+casual_paper_learning.egg-info
+# wait for IDDPM full version 
+IDDPM 
