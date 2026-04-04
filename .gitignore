@@ -2,5 +2,7 @@
 .vscode/
 __pycache__/
 casual_paper_learning.egg-info
-# wait for IDDPM full version 
-IDDPM 
+test.py
+# wait for CF&CFG to complete
+/CG_and_CFG
+/casual_paper_learning/c_cfg

@@ -289,8 +289,8 @@ class IDDPM(nn.Module):
         l_simple = (pred_noises - noises) ** 2
         l_simple = l_simple.mean(dim=list(range(1, len(l_simple.shape))))
     
-        # L_vlb
-        l_vlb = self.vlb_loss(pred_noises, pred_vars, x0, xt, t)
+        # L_vlb，pred_noises.detach()阻断vlb项中预测均值的梯度回传
+        l_vlb = self.vlb_loss(pred_noises.detach(), pred_vars, x0, xt, t)
 
         return l_simple + vlb_weight * l_vlb
 
