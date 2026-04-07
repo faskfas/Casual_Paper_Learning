@@ -3,6 +3,7 @@
 __pycache__/
 casual_paper_learning.egg-info
 test.py
-# wait for CF&CFG to complete
-/CG_and_CFG
-/casual_paper_learning/c_cfg
+# TODO list
+VAE
+LoRA
+casual_paper_learning/c_vae

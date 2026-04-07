@@ -1,0 +1,28 @@
+# DDPM_CFG config
+ddpm_cfg:
+  n_steps: 1000
+  img_size: 64
+
+# UNet config
+unet:
+  image_channels: 3
+  n_channels: 64
+  ch_mults: [1, 2, 2, 4]
+  is_attn: [False, False, True, True]
+  n_blocks: 2
+  n_classes: 2
+  token_dropout_prob: 0.2
+
+# Env and path config
+env:
+  model_save_path: "ckpts"
+  model_load_path: "ckpts/cfg_ddpm_unet_iter50000.pth"
+  device: "cuda"
+
+# Train config
+train:
+  batch_size: 2
+  lr: 0.00002
+  epochs: 10000  # 10000 is enough, I trained 50000 epochs in my experiment
+  overfit_for_show: True  # only use one image to show
+  train_dataset_path: "./train" 
