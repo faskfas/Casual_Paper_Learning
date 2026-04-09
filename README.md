@@ -64,8 +64,8 @@ pip install -e .
 在学习某个模型的时候(比如 Transformer)，最好能弄清楚**中间的张量怎么传递的、形状如何变化的**(比如经过了 Transformer Encoder 之后，输入输出的维度是一致的)，我认为这对于理解模型有比较大的帮助
 
 ## TODO Lists
-- VAE(~~代码~~，笔记待完成)
-- VQ-VAE
+- ~~VAE~~(done at 4.9)
+- VQ-VAE(包含前置知识: pixelCNN)
 - Latent Diffusion Model
 - Flow Matching
 - LoRA

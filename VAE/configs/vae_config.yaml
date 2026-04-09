@@ -1,0 +1,14 @@
+# VAE config
+vae:
+  img_size: 64
+  latent_dim: 20
+  input_dim: 64
+  checkpoint_load_path: './ckpts/vae_iter5000.pth'
+
+# Train config
+trainer:
+  batch_size: 2
+  lr: 0.0003
+  dataset_dir: './train'
+  epochs: 500
+  checkpoint_save_dir: './ckpts'

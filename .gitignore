@@ -3,7 +3,7 @@
 __pycache__/
 casual_paper_learning.egg-info
 test.py
-# TODO list
-VAE
-LoRA
-casual_paper_learning/c_vae
+.claude
+# next TODO: VQ-VAE
+VQ-VAE(with_PixelCNN)
+casual_paper_learning/c_vqvae
