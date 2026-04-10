@@ -6,6 +6,6 @@ setup(
     version="0.1.1",
     py_modules=[
         "c_ddpm", "c_iddpm", "c_cfg",  # DDPM series
-        "c_vae"  # Auto Encoder series
+        "c_vae", "c_vqvae"  # Auto Encoder series
     ]
 )

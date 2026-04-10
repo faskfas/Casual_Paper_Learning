@@ -1,0 +1,37 @@
+global:
+  img_size: 64
+
+vqvae:
+  input_dim: 3
+  hidden_dim: 128
+  num_embedding: 32
+  checkpoint_load_path: "./ckpts/vqvae/vqvae_iter5000.pth"
+
+pixel_cnn:  # test, need to modify finally
+  n_blocks: 15
+  hidden_dim: 128  # same as vqvae
+  linear_dim: 256
+  num_embedding: 32  # same as vqvae
+  checkpoint_load_path: "./ckpts/pixelcnn/pixelcnn_iter5000.pth"
+
+train_vqvae:
+  checkpoint_save_dir: "./ckpts/vqvae/"
+  epochs: 5000  # 5000
+  batch_size: 2
+  lr: 0.001
+  l_w_embedding: 1
+  l_w_commitment: 0.25
+  dataset_dir: './train'
+  save_res_dir: "./vqvae_recon"
+
+train_pixelcnn:
+  checkpoint_save_dir: "./ckpts/pixelcnn/"
+  batch_size: 2
+  epochs: 5000  # 5000
+  lr: 0.001
+  dataset_dir: './train'
+  save_res_dir: "./pixelcnn_recon"
+
+sample:
+  sample_save_dir: "./sample"
+  sample_num: 4

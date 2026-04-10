@@ -4,6 +4,3 @@ __pycache__/
 casual_paper_learning.egg-info
 test.py
 .claude
-# next TODO: VQ-VAE
-VQ-VAE(with_PixelCNN)
-casual_paper_learning/c_vqvae
