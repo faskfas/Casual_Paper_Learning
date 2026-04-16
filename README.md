@@ -66,7 +66,7 @@ pip install -e .
 ## TODO Lists
 - ~~VAE~~ (updated at 4.9)
 - ~~VQ-VAE(包含前置知识: pixelCNN)~~ (updated at 4.10)
-- MAE
-- Latent Diffusion Model
+- ~~MAE~~ (updated at 4.16)
+- ~~Latent Diffusion Model~~ (updated at 4.16)
 - Flow Matching
 - LoRA
