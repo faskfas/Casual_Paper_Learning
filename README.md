@@ -74,5 +74,5 @@ pip install -e .
 - ~~VQ-VAE(包含前置知识: pixelCNN)~~ (updated at 4.10)
 - ~~MAE~~ (updated at 4.16)
 - ~~Latent Diffusion Model~~ (updated at 4.16)
-- Flow Matching
+- ~~Flow Matching~~ (updated at 4.18)
 - LoRA
