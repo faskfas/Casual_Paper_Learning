@@ -1,0 +1,10 @@
+global:
+  img_size: 64
+
+unet:
+  image_channels: 3
+  n_channels: 64
+  ch_mults: [1, 2]
+  is_attn: [False, True]
+  n_blocks: 2
+  checkpoint_load_path: "./ckpts/fm_unet_iter10000.pth"
