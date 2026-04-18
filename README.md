@@ -6,7 +6,7 @@
 
 我发现导出 HTML 文件的话可能比较麻烦，不如直接在一个平台上把这些 ipynb 和 md 整理成文章，所以我尝试在知乎发了我的笔记，大家感兴趣可以去看看:
 
-[Flow Matching 理论推导](https://zhuanlan.zhihu.com/p/2028514459946067646) | [Flow Matching 代码实现]()
+[Flow Matching 理论推导](https://zhuanlan.zhihu.com/p/2028514459946067646) | [Flow Matching 代码实现](https://zhuanlan.zhihu.com/p/2028883970197071446)
 
 ## 目录结构🤗
 本项目的目录结构如下所示，每个文件夹对应了一个架构(比如 Transformer):
