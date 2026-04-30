@@ -75,4 +75,6 @@ pip install -e .
 - ~~MAE~~ (updated at 4.16)
 - ~~Latent Diffusion Model~~ (updated at 4.16)
 - ~~Flow Matching~~ (updated at 4.18)
+- ~~KV-Cache~~ (updated at 4.30)
+- ~~RoPE~~ (updated at 4.30)
 - LoRA
