@@ -77,4 +77,5 @@ pip install -e .
 - ~~Flow Matching~~ (updated at 4.18)
 - ~~KV-Cache~~ (updated at 4.30)
 - ~~RoPE~~ (updated at 4.30)
-- LoRA
+- ~~MoE~~ (updated at 5.6)
+- ~~LoRA~~ (updated at 5.8)
